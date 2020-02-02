@@ -14,6 +14,7 @@ import com.nelioalves.cursomc.domain.Categoria;
 import com.nelioalves.cursomc.domain.repositories.CategoriaRepository;
 import com.nelioalves.cursomc.domain.services.exception.DataIntegrityException;
 import com.nelioalves.cursomc.domain.services.exception.ObjectNotFoundException;
+import com.nelioalves.cursomc.dto.CategoriaDTO;
 
 @Service
 public class CategoriaService {
@@ -54,6 +55,9 @@ public class CategoriaService {
 		PageRequest pageRequest = PageRequest.of(page, linesPerPage, Direction.valueOf(direction), orderBy);
 		return repo.findAll(pageRequest);
 	}
-	
-	
+
+	public Categoria fromDTO(CategoriaDTO objDto) {
+		return new Categoria(objDto.getId(), objDto.getNome());
+	}
+
 }
