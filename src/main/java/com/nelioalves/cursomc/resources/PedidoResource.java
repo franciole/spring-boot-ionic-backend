@@ -21,7 +21,7 @@ public class PedidoResource {
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public ResponseEntity<?> find(@PathVariable Integer id) throws ObjectNotFoundException {
-		Pedido obj = catServ.buscar(id);
+		Pedido obj = catServ.find(id);
 		return ResponseEntity.ok().body(obj);
 	}
 
