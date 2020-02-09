@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.nelioalves.cursomc.domain.services.DBService;
+import com.nelioalves.cursomc.services.DBService;
 
 @Configuration
 @Profile("dev")
