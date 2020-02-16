@@ -11,10 +11,10 @@ import com.nelioalves.cursomc.domain.ItemPedido;
 import com.nelioalves.cursomc.domain.PagamentoComBoleto;
 import com.nelioalves.cursomc.domain.Pedido;
 import com.nelioalves.cursomc.domain.enums.EstadoPagamento;
-import com.nelioalves.cursomc.domain.repositories.ItemPedidoRepository;
-import com.nelioalves.cursomc.domain.repositories.PagamentoRepository;
-import com.nelioalves.cursomc.domain.repositories.PedidoRepository;
-import com.nelioalves.cursomc.domain.services.exception.ObjectNotFoundException;
+import com.nelioalves.cursomc.repositories.ItemPedidoRepository;
+import com.nelioalves.cursomc.repositories.PagamentoRepository;
+import com.nelioalves.cursomc.repositories.PedidoRepository;
+import com.nelioalves.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class PedidoService {

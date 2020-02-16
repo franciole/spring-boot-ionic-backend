@@ -1,4 +1,4 @@
-package com.nelioalves.cursomc.domain.services.validation;
+package com.nelioalves.cursomc.services.validation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerMapping;
 
 import com.nelioalves.cursomc.domain.Cliente;
-import com.nelioalves.cursomc.domain.repositories.ClienteRepository;
 import com.nelioalves.cursomc.dto.ClienteDTO;
+import com.nelioalves.cursomc.repositories.ClienteRepository;
 import com.nelioalves.cursomc.resources.exception.FieldMessage;
 
 public class ClienteUpdateValidator implements ConstraintValidator<ClienteUpdate, ClienteDTO> {

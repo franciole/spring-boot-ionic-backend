@@ -1,4 +1,4 @@
-package com.nelioalves.cursomc.domain.repositories;
+package com.nelioalves.cursomc.repositories;
 
 import java.util.List;
 

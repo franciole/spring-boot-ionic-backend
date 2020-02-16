@@ -22,15 +22,15 @@ import com.nelioalves.cursomc.domain.Produto;
 import com.nelioalves.cursomc.domain.enums.EstadoPagamento;
 import com.nelioalves.cursomc.domain.enums.Perfil;
 import com.nelioalves.cursomc.domain.enums.TipoCliente;
-import com.nelioalves.cursomc.domain.repositories.CategoriaRepository;
-import com.nelioalves.cursomc.domain.repositories.CidadeRepository;
-import com.nelioalves.cursomc.domain.repositories.ClienteRepository;
-import com.nelioalves.cursomc.domain.repositories.EnderecoRepository;
-import com.nelioalves.cursomc.domain.repositories.EstadoRepository;
-import com.nelioalves.cursomc.domain.repositories.ItemPedidoRepository;
-import com.nelioalves.cursomc.domain.repositories.PagamentoRepository;
-import com.nelioalves.cursomc.domain.repositories.PedidoRepository;
-import com.nelioalves.cursomc.domain.repositories.ProdutoRepository;
+import com.nelioalves.cursomc.repositories.CategoriaRepository;
+import com.nelioalves.cursomc.repositories.CidadeRepository;
+import com.nelioalves.cursomc.repositories.ClienteRepository;
+import com.nelioalves.cursomc.repositories.EnderecoRepository;
+import com.nelioalves.cursomc.repositories.EstadoRepository;
+import com.nelioalves.cursomc.repositories.ItemPedidoRepository;
+import com.nelioalves.cursomc.repositories.PagamentoRepository;
+import com.nelioalves.cursomc.repositories.PedidoRepository;
+import com.nelioalves.cursomc.repositories.ProdutoRepository;
 
 @Service
 public class DBService {

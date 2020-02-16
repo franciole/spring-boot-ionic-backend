@@ -11,10 +11,10 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.nelioalves.cursomc.domain.Categoria;
-import com.nelioalves.cursomc.domain.repositories.CategoriaRepository;
-import com.nelioalves.cursomc.domain.services.exception.DataIntegrityException;
-import com.nelioalves.cursomc.domain.services.exception.ObjectNotFoundException;
 import com.nelioalves.cursomc.dto.CategoriaDTO;
+import com.nelioalves.cursomc.repositories.CategoriaRepository;
+import com.nelioalves.cursomc.services.exception.DataIntegrityException;
+import com.nelioalves.cursomc.services.exception.ObjectNotFoundException;
 
 @Service
 public class CategoriaService {
