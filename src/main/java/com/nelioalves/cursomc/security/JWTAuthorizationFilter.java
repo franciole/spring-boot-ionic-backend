@@ -1,4 +1,4 @@
-package com.nelioalves.cursomc.securty;
+package com.nelioalves.cursomc.security;
 
 import java.io.IOException;
 

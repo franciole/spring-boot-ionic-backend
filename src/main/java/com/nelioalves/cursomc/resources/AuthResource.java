@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.nelioalves.cursomc.dto.EmailDTO;
-import com.nelioalves.cursomc.securty.JWTUtil;
-import com.nelioalves.cursomc.securty.UserSS;
+import com.nelioalves.cursomc.security.JWTUtil;
+import com.nelioalves.cursomc.security.UserSS;
 import com.nelioalves.cursomc.services.AuthService;
 import com.nelioalves.cursomc.services.UserService;
 

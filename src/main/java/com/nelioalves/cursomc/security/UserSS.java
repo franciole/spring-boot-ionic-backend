@@ -1,4 +1,4 @@
-package com.nelioalves.cursomc.securty;
+package com.nelioalves.cursomc.security;
 
 import java.util.Collection;
 import java.util.Set;

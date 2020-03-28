@@ -18,7 +18,7 @@ import com.nelioalves.cursomc.domain.enums.EstadoPagamento;
 import com.nelioalves.cursomc.repositories.ItemPedidoRepository;
 import com.nelioalves.cursomc.repositories.PagamentoRepository;
 import com.nelioalves.cursomc.repositories.PedidoRepository;
-import com.nelioalves.cursomc.securty.UserSS;
+import com.nelioalves.cursomc.security.UserSS;
 import com.nelioalves.cursomc.services.exception.AuthorizationException;
 import com.nelioalves.cursomc.services.exception.ObjectNotFoundException;
 
